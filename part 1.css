@@ -1,0 +1,23 @@
+/* Four different types of selectors */
+h1 {
+    color: #333;
+  }
+  
+  div.wrapper {
+    background-color: #FF0000;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  ul li:nth-child(odd) {
+    font-weight: bold;
+  }
+  
+  p {
+    color: initial;
+  }
+  
+  /* Set text color for the entire page */
+  body {
+    color: #333;
+  }
